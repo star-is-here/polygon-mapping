@@ -8,11 +8,11 @@ Common approaches to unify multiple datasets of different polygonal mappings is 
 
 ### Assignment method
 
-Consider an original set of polygons S and desired set of polygons T that both span our mapping space. A bijective mapping f from original set of polygons S to desired set of polygons T is created by determining for each polygon in S the corresponding polygon in T that maximizes some intersection function g(s, t) for s \in S and t \n T.
+Consider an original set of polygons S and desired set of polygons T that both span our mapping space. A surjective mapping f from original set of polygons S to desired set of polygons T is created by determining for each polygon in S the corresponding polygon in T that maximizes some intersection function g(s, t) for s \in S and t \n T.
 
 ### Apportion method
 
-In apportioning, instead of creating a bijective mapping f, instead a normalized g'(s, t) intersection function is used to apportion out the independent and dependent variables in our analysis. 
+In apportioning, instead of creating a surjective mapping f, instead a normalized g'(s, t) intersection function is used to apportion out the independent and dependent variables in our analysis. 
 
 Both methods assume a known intersection function that closely approximates the distribution of our variables across the mapping space. This is easily observed false in many cases or non-trivial to determine the intersection function.
 
